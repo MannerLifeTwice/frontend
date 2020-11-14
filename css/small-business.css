@@ -1,0 +1,114 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template/small-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE)
+ */
+
+
+/*! Icons */
+*{ margin: 0;
+ padding: 0;
+ box-sizing: border-box; }
+
+:root{
+  --facebook: #3b5999;
+  --instagram: #e4405f;
+  --twitter: #55acee; }
+
+.redes-container{ display: flex;
+height: 10vh;
+align-items: flex-end;
+justify-content: flex-end; }
+
+.redes-container ul li{ display: inline-block;
+  margin: 0 0.3em;
+  width: 3.125em;
+  height: 2.8em;
+  text-align: center; }
+
+.redes-container ul li a{ display: block;
+padding: 0 0.6em;
+background: #333;
+color: #fff;
+line-height: 2.5em;
+font-size: 1.25em;
+box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+transition: .2s; }
+
+.redes-container ul:hover a{ filter: blur(2px); }
+
+.redes-container ul li a:hover{ transform: translateY(-3px) scale(1.05);
+box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+filter: none; }
+
+.redes-container ul li.facebook{ background: var(--facebook); }
+.redes-container ul li.instagram{ background: var(--instagram); }
+.redes-container ul li.twitter{ background: var(--twitter); }
+
+#FalseIcons { display: flex;
+height: 10vh;
+align-items: flex-start;
+justify-content: flex-start; }
+/*! Icons */
+
+body {
+ background-image: url(Fondo.jpg);
+}
+.row h2{ font-size: 1.7em; }
+
+#Logo::before { content: url("SFCTAlogo.jpg"); }
+#ProdAgri { background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(ProdAgri.png);
+background-size: cover;
+background-position: center; }
+#ProdBarr { background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(ProdBarr.png);
+background-size: cover;
+background-position: center; }
+#Card { background-image: linear-gradient(#E32020, #F60808 ); }
+#CardC { background-image: linear-gradient(#F4E606, #E1D845 ); }
+#ContactCard { background-image: linear-gradient(#F4E606, #E1D845 ); }
+#ContactFooter { background-image: linear-gradient(#E1D845, #F4E606); }
+#ProductColor { background-color: black; }
+#List h4 { text-decoration: underline;
+font-size: 2em; }
+#List p { font-weight: bold;
+font-size: 1.3em; }
+#List li { font-size: 1.7em }
+#List a { color: #D30D0D;
+font-size: 2em;
+font-weight: 700; }
+#List span { color: blue; }
+#Amanda a { font-size: 1em;
+color: blue; }
+#Dh { color: #27E429;
+font-weight: 500;
+font-size: 1.6em; }
+#So { color: #89E626;
+font-weight: 500;
+font-size: 1.6em; }
+#Di { color: #26E6AF;
+font-weight: 500;
+font-size: 1.6em; }
+#Df { color: #EC2D1A;
+font-weight: 500;
+font-size: 1.6em; }
+#exampleModal { background-image: url(43428-edit.jpg);
+background-repeat: repeat;
+background-attachment: local; }
+#exampleModalLabel { font-size: 3em; }
+#ModalContent {  background: linear-gradient(#27E767, rgba(255,255,255,.35)) ; }
+#B1 { background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(B1.jpg); }
+#B2 {background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(B2.jpg); }
+#B3 {background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(B3.jpg); }
+#B4 {background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(B4.jpg); }
+
+#exampleModal2 { background-image: url(ProdBck.jpg);
+background-repeat: repeat;
+background-attachment: local; }
+#Prod { background: linear-gradient(#EAE728, #EA5728); }
+#SpanTable span { color: red;
+font-size: 1.05em; }
+#SpanTable a { color: blue;
+font-size: 1.2em; }
+#SpanTable p { font-size: 1em;
+font-family: sans-serif;}
+/*<a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por macrovector - www.freepik.es</a> */
