@@ -1,154 +1,133 @@
-<!DOCTYPE html>
-<html lang="en">
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template/small-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE)
+ */
 
-<head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+/*! Icons */
+*{ margin: 0;
+ padding: 0;
+ box-sizing: border-box; }
 
-  <title>CTA</title>
-  <link rel="icon" href="NCTAlogoico.png">
+:root{
+  --facebook: #3b5999;
+  --instagram: #e4405f;
+  --twitter: #55acee; }
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+.redes-container{ display: flex;
+height: 10vh;
+align-items: flex-end;
+justify-content: flex-end; }
 
-  <!-- Custom styles for this template -->
-  <link href="css/small-business.css" rel="stylesheet">
+.redes-container ul li{ display: inline-block;
+  margin: 0 0.3em;
+  width: 3.125em;
+  height: 2.8em;
+  text-align: center; }
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+.redes-container ul li a{ display: block;
+padding: 0 0.6em;
+background: #333;
+color: #fff;
+line-height: 2.5em;
+font-size: 1.25em;
+box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+transition: .2s; }
 
-</head>
+.redes-container ul:hover a{ filter: blur(2px); }
 
-<body>
+.redes-container ul li a:hover{ transform: translateY(-3px) scale(1.05);
+box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+filter: none; }
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><img src="Logo1.png" width="100%" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="About.html">About</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="Contact.html">Contact</a>
-            <span class="sr-only">(current)</span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+.redes-container ul li.facebook{ background: var(--facebook); }
+.redes-container ul li.instagram{ background: var(--instagram); }
+.redes-container ul li.twitter{ background: var(--twitter); }
 
-  <!-- Page Content -->
-  <div class="container">
+#FalseIcons { display: flex;
+height: 10vh;
+align-items: flex-start;
+justify-content: flex-start; }
+/*! Icons */
 
-    <!-- Heading Row -->
-    <div class="row align-items-center my-5">
+body {
+ background-image: url(Fondo.jpg);
+ background-size: cover;
+ background-position: center;
+}
+.row h2{ font-size: 1.7em; }
+footer .next { display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+margin: 1em; }
 
-      <!-- /.col-lg-8 -->
-      <div class="col-lg-11">
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfNiGqY3H8UWMva1P9B_LvTByBARI_F8H91bmde6raG3VzufA/viewform?embedded=true" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-      </div>
-      <!-- /.col-md-4 -->
-    </div>
-    <!-- /.row -->
 
-    <!-- Call to Action Well -->
-    <div class="card text-white bg-secondary my-5 py-4 text-center" id="CardC">
-      <div class="card-body">
-        <p class="text-black m-0"style="color: black;">Aquí abajo encontrarán nuestras redes sociales a través de los que comunicamos!</p>
-      </div>
-    </div>
+#Logo::before { content: url("SFCTAlogo.jpg"); }
+#ESC { background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url(EcoSoc.png);
+background-size: cover;
+background-position: center;
+font-weight: bold;}
+#FBC { background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url(FBCTAlogo.png);
+background-size: cover;
+background-position: center;
+font-weight: bold;}
+#FCA { background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url(FrenteAgrario.png);
+background-size: cover;
+background-position: center;
+font-weight: bold;}
+#ProdAgri { background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(ProdAgri.png);
+background-size: cover;
+background-position: center; }
+#ProdBarr { background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(ProdBarr.png);
+background-size: cover;
+background-position: center; }
+#Card { background-image: linear-gradient(#E32020, #F60808 ); }
+#CardC { background-image: linear-gradient(#F4E606, #E1D845 ); }
+#ContactCard { background-image: linear-gradient(#F4E606, #E1D845 ); }
+#ContactFooter { background-image: linear-gradient(#E1D845, #F4E606); }
+#ProductColor { background-color: black; }
+#List h4 { text-decoration: underline;
+font-size: 2em; }
+#List p { font-weight: bold;
+font-size: 1.3em; }
+#List li { font-size: 1.7em }
+#List a { color: #D30D0D;
+font-size: 2em;
+font-weight: 700; }
+#List span { color: blue; }
+#Amanda a { font-size: 1em;
+color: blue; }
+#Dh { color: #27E429;
+font-weight: 500;
+font-size: 1.6em; }
+#So { color: #89E626;
+font-weight: 500;
+font-size: 1.6em; }
+#Di { color: #26E6AF;
+font-weight: 500;
+font-size: 1.6em; }
+#Df { color: #EC2D1A;
+font-weight: 500;
+font-size: 1.6em; }
+#exampleModal { background-image: url(43428-edit.jpg);
+background-repeat: repeat;
+background-attachment: local; }
+#exampleModalLabel { font-size: 3em; }
+#ModalContent {  background: linear-gradient(#27E767, rgba(255,255,255,.35)) ; }
+#B1 { background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(B1.jpg); }
+#B2 {background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(B2.jpg); }
+#B3 {background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(B3.jpg); }
+#B4 {background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(B4.jpg); }
 
-    <!-- Content Row -->
-    <div class="row">
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title">CTA</h2>
-            <p class="card-text">Nuestra página principal se encuentra <a href="https://www.cta.org.ar/" target="_blank">aquí</a>.</p>
-          </div>
-
-          <div class="card-footer">
-            <div class="redes-container">
-              <ul>
-                <li><a href="https://www.facebook.com/ctaok/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="https://www.instagram.com/ctanacional/?hl=es-la" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://twitter.com/CTAok?s=20" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.col-md-4 -->
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title">CTA Santa Fe</h2>
-            <p class="card-text"> Nuestra página principal se encuentra <a href="http://www.ctasantafe.org.ar/" target="_blank">aquí</a>.</p>
-
-          </div>
-          <div class="card-footer">
-            <div class="redes-container">
-              <ul>
-                <li><a href="https://www.facebook.com/CTAdelosTrabajadoresSantaFe/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="https://www.instagram.com/cta.santafe/?hl=es-la" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://twitter.com/CTA_Santa_Fe?s=20" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.col-md-4 -->
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title">Frente Barrial CTA Santa Fe</h2>
-            <p class="card-text"></p>
-          </div>
-          <div class="card-footer">
-
-            <div class="redes-container">
-              <ul>
-                <li><a href="https://www.facebook.com/FrenteBarrialCTASantaFe/about/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.col-md-4 -->
-
-    </div>
-    <!-- /.row -->
-
-  </div>
-  <!-- /.container -->
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Joaquín "Gallu"ccio</p>
-    </div>
-    <!-- /.container -->
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
-</html>
+#exampleModal2 { background-image: url(ProdBck.jpg);
+background-repeat: repeat;
+background-attachment: local; }
+#Prod { background: linear-gradient(#EAE728, #EA5728); }
+#SpanTable span { color: red;
+font-size: 1.05em; }
+#SpanTable a { color: blue;
+font-size: 1.2em; }
+#SpanTable p { font-size: 1em;
+font-family: sans-serif;}
+/*<a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por macrovector - www.freepik.es</a> */
