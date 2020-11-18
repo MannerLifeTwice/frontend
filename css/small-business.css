@@ -53,10 +53,29 @@ justify-content: flex-start; }
 
 body {
  background-image: url(Fondo.jpg);
+ background-size: cover;
+ background-position: center;
 }
 .row h2{ font-size: 1.7em; }
+footer .next { display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+margin: 1em; }
+
 
 #Logo::before { content: url("SFCTAlogo.jpg"); }
+#ESC { background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url(EcoSoc.png);
+background-size: cover;
+background-position: center;
+font-weight: bold;}
+#FBC { background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url(FBCTAlogo.png);
+background-size: cover;
+background-position: center;
+font-weight: bold;}
+#FCA { background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url(FrenteAgrario.png);
+background-size: cover;
+background-position: center;
+font-weight: bold;}
 #ProdAgri { background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(ProdAgri.png);
 background-size: cover;
 background-position: center; }
