@@ -64,15 +64,15 @@ margin: 1em; }
 
 
 #Logo::before { content: url("SFCTAlogo.jpg"); }
-#ESC { background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url(EcoSoc.png);
+#ESC { background: linear-gradient(rgba(255,255,255,.85), rgba(255,255,255,.85)), url(EcoSoc.png);
 background-size: cover;
 background-position: center;
 font-weight: bold;}
-#FBC { background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url(FBCTAlogo.png);
+#FBC { background: linear-gradient(rgba(255,255,255,.85), rgba(255,255,255,.85)), url(FBCTAlogo.png);
 background-size: cover;
 background-position: center;
 font-weight: bold;}
-#FCA { background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url(FrenteAgrario.png);
+#FCA { background: linear-gradient(rgba(255,255,255,.85), rgba(255,255,255,.85)), url(FrenteAgrario.png);
 background-size: cover;
 background-position: center;
 font-weight: bold;}
