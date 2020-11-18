@@ -84,6 +84,9 @@ background-size: cover;
 background-position: center; }
 #Card { background-image: linear-gradient(#E32020, #F60808 ); }
 #CardC { background-image: linear-gradient(#F4E606, #E1D845 ); }
+#Flag {  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(Argen.svg);
+background-size: cover;
+background-position: center; }
 #ContactCard { background-image: linear-gradient(#F4E606, #E1D845 ); }
 #ContactFooter { background-image: linear-gradient(#E1D845, #F4E606); }
 #ProductColor { background-color: black; }
@@ -129,5 +132,12 @@ font-size: 1.05em; }
 #SpanTable a { color: blue;
 font-size: 1.2em; }
 #SpanTable p { font-size: 1em;
-font-family: sans-serif;}
+font-family: sans-serif; }
+
+#Table { font-size: 1.5em;
+background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(Argen.svg);
+background-size: cover;
+background-position: center;
+font-weight: bolder;}
+
 /*<a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por macrovector - www.freepik.es</a> */
